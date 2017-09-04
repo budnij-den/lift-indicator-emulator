@@ -1,0 +1,50 @@
+body{
+	padding:15px;
+	margin-left:20px;
+}
+a{
+}
+.floorcell{
+	background:olive;
+	border:1px solid DarkGreen;
+}
+.cell{
+	font-size: 25px;
+	background: yellowgreen;
+	color: black;
+	padding:5px;
+	font-weight:600;
+}
+
+.info-bar{
+	margin-left:15px;
+	margin-bottom:40px;
+	height: 250px;
+	width: 95%;
+	border:5px solid DarkCyan;
+	background: LightCyan;
+	font-size:40px;
+}
+.arrows-bar{
+	width:95%;
+}
+
+.right-bar{
+}
+.left-bar{
+}
+
+.row{
+	text-align:center
+}
+
+.glyphicon{
+	color:maroon;
+	font-size:200px;
+	margin-left:70px;
+	margin-bottom:40px;
+}
+
+#f000, #f101, #f202, #f303, #f404, #f505, #f606, #f707, #f808, #f909, #f1010, #f1111, #f1212, #f1313, #f1414, #f1515, #f1616, #f1717, #f1818, #f1919, #f2020, #f2121, #f2222, #f2323, #f2424, #f2525{
+	background:orange;
+}
