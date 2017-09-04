@@ -25,6 +25,18 @@ class Lift
 	# def check_weight 
 		# return puts "overload!" if @weight>MAXWEIGHT 
 	# end 
+	
+	def weight_changing
+		if 
+		else
+	end
+	end
+	
+	def load_weight
+	end
+	
+	def release_weight
+	end
 
 	def move 
 		if @destination_floor > @current_floor 
