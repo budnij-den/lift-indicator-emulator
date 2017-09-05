@@ -1,4 +1,5 @@
 body{
+
 	padding:15px;
 	margin-left:20px;
 }
@@ -32,6 +33,9 @@ a{
 .right-bar{
 }
 .left-bar{
+	
+	background:mocassin;
+	background-image:url(background6.png)
 }
 
 .row{
