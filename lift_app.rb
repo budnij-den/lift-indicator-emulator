@@ -1,3 +1,4 @@
+require 'rubygems'
 require 'sinatra'
 require 'shotgun'
 require_relative 'lift_class.rb'
