@@ -11,47 +11,207 @@
 	
 <body>
 
+<!-- разграфка страницы -->
 <div class="row">
-
+<!-- информационное табло -->
 	<div class="left-bar col-md-4">
 		<div class="row info-bar">Лифт находится на <%=@current%> этаже
 		</div>
-		
+<!-- кнопка вызова лифта -->
 		<div class="row arrows-bar">
 			<div class="row">
-				<a href="#"><span class="glyphicon glyphicon-record"></span></a>
+				<a href="/">
+					<span class="glyphicon glyphicon-record">
+					</span>
+				</a>
 			</div>
-			
 		</div>
 	</div>
-	
+
+<!-- индикаторная панель -->
 	<div class="right-bar col-md-1">
-		<div class="floorcell"><button class="badge cell" id="f<%=@floor%>25">25</button></div>
-		<div class="floorcell"><button class="badge cell" id="f<%=@floor%>24">24</button></div>
-		<div class="floorcell"><button class="badge cell" id="f<%=@floor%>23">23</button></div>
-		<div class="floorcell"><button class="badge cell" id="f<%=@floor%>22">22</button></div>
-		<div class="floorcell"><button class="badge cell" id="f<%=@floor%>21">21</button></div>
-		<div class="floorcell"><button class="badge cell" id="f<%=@floor%>20">20</button></div>
-		<div class="floorcell"><button class="badge cell" id="f<%=@floor%>19">19</button></div>
-		<div class="floorcell"><button class="badge cell" id="f<%=@floor%>18">18</button></div>
-		<div class="floorcell"><button class="badge cell" id="f<%=@floor%>17">17</button></div>
-		<div class="floorcell"><button class="badge cell" id="f<%=@floor%>16">16</button></div>
-		<div class="floorcell"><button class="badge cell" id="f<%=@floor%>15">15</button></div>
-		<div class="floorcell"><button class="badge cell" id="f<%=@floor%>14">14</button></div>
-		<div class="floorcell"><button class="badge cell" id="f<%=@floor%>13">13</button></div>
-		<div class="floorcell"><button class="badge cell" id="f<%=@floor%>12">12</button></div>
-		<div class="floorcell"><button class="badge cell" id="f<%=@floor%>11">11</button></div>
-		<div class="floorcell"><button class="badge cell" id="f<%=@floor%>10">10</button></div>
-		<div class="floorcell"><button class="badge cell" id="f<%=@floor%>09">09</button></div>
-		<div class="floorcell"><button class="badge cell" id="f<%=@floor%>08">08</button></div>
-		<div class="floorcell"><button class="badge cell" id="f<%=@floor%>07">07</button></div>
-		<div class="floorcell"><button class="badge cell" id="f<%=@floor%>06">06</button></div>
-		<div class="floorcell"><button class="badge cell" id="f<%=@floor%>05">05</button></div>
-		<div class="floorcell"><button class="badge cell" id="f<%=@floor%>04">04</button></div>
-		<div class="floorcell"><button class="badge cell" id="f<%=@floor%>03">03</button></div>
-		<div class="floorcell"><button class="badge cell" id="f<%=@floor%>02">02</button></div>
-		<div class="floorcell"><button class="badge cell" id="f<%=@floor%>01">01</button></div>
-		<div class="floorcell"><button class="badge cell" id="f<%=@floor%>00">00</button></div>
+		<div class="floorcell">
+			<form>
+				<button type="submit" class="badge cell" id="f<%=@floor%>25">
+					25
+				</button>
+			</form>
+		</div>
+		<div class="floorcell">
+			<form>
+				<button type="submit" class="badge cell" id="f<%=@floor%>24">
+					24
+				</button>
+			</form>
+		</div>
+		<div class="floorcell">
+			<form>
+				<button  type="submit" class="badge cell" id="f<%=@floor%>23">
+					23
+				</button>
+			</form>
+		</div>
+		<div class="floorcell">
+			<form>
+				<button  type="submit" class="badge cell" id="f<%=@floor%>22">
+					22
+				</button>
+			</form>
+		</div>
+		<div class="floorcell">
+			<form>
+			<button type="submit" class="badge cell" id="f<%=@floor%>21">
+			21
+			</button>
+			</form>
+		</div>
+		<div class="floorcell">
+			<form>
+				<button type="submit" class="badge cell" id="f<%=@floor%>20">
+					20
+				</button>
+			</form>
+		</div>
+		<div class="floorcell">
+			<form>
+				<button type="submit" class="badge cell" id="f<%=@floor%>19">
+					19
+				</button>
+			</form>
+		</div>
+		<div class="floorcell">
+			<form>
+				<button type="submit" class="badge cell" id="f<%=@floor%>18">
+					18
+				</button>
+			</form>
+		</div>
+		<div class="floorcell">
+			<form>
+				<button type="submit" class="badge cell" id="f<%=@floor%>17">
+					17
+				</button>
+			</form>
+		</div>
+		<div class="floorcell">
+			<form>
+				<button type="submit" class="badge cell" id="f<%=@floor%>16">
+					16
+				</button>
+			</form>
+		</div>
+		<div class="floorcell">
+			<form>
+				<button type="submit" class="badge cell" id="f<%=@floor%>15">
+					15
+				</button>
+			</form>
+		</div>
+		<div class="floorcell">
+			<form>
+				<button type="submit" class="badge cell" id="f<%=@floor%>14">
+					14
+				</button>
+			</form>
+		</div>
+		<div class="floorcell">
+			<form>
+				<button type="submit" class="badge cell" id="f<%=@floor%>13">
+					13
+				</button>
+			</form>
+		</div>
+		<div class="floorcell">
+			<form>
+				<button type="submit" class="badge cell" id="f<%=@floor%>12">
+					12
+				</button>
+			</form>
+		</div>
+		<div class="floorcell">
+			<form>
+				<button type="submit" class="badge cell" id="f<%=@floor%>11">
+					11
+				</button>
+			</form>
+		</div>
+		<div class="floorcell">
+			<form>
+				<button type="submit" class="badge cell" id="f<%=@floor%>10">
+					10
+				</button>
+			</form>
+		</div>
+		<div class="floorcell">
+			<form>
+				<button type="submit" class="badge cell" id="f<%=@floor%>09">
+					09
+				</button>
+			</form>
+		</div>
+		<div class="floorcell">
+			<form>
+				<button type="submit" class="badge cell" id="f<%=@floor%>08">
+					08
+				</button>
+			</form>
+		</div>
+		<div class="floorcell">
+			<form>
+				<button type="submit" class="badge cell" id="f<%=@floor%>07">
+					07
+				</button>
+			</form>
+		</div>
+		<div class="floorcell">
+			<form>
+				<button type="submit" class="badge cell" id="f<%=@floor%>06">
+					06
+				</button>
+			</form>
+		</div>
+		<div class="floorcell">
+			<form>
+				<button type="submit" class="badge cell" id="f<%=@floor%>05">
+					05
+				</button>
+			</form>
+		</div>
+		<div class="floorcell">
+			<form>
+				<button type="submit" class="badge cell" id="f<%=@floor%>04">
+					04
+				</button>
+			</form>
+		</div>
+		<div class="floorcell">
+			<form>
+				<button type="submit" class="badge cell" id="f<%=@floor%>03">
+					03
+				</button>
+			</form>
+		</div>
+		<div class="floorcell">
+			<form>
+				<button type="submit" class="badge cell" id="f<%=@floor%>02">
+					02
+				</button>
+			</form>
+		</div>
+		<div class="floorcell">
+			<form>
+				<button type="submit" class="badge cell" id="f<%=@floor%>01">
+					01
+				</button>
+			</form>
+		</div>
+		<div class="floorcell">
+			<form>
+				<button type="submit" class="badge cell" id="f<%=@floor%>00">
+					00
+				</button>
+			</form>
+		</div>
 	</div>
 </div>
 

@@ -5,15 +5,23 @@ body{
 }
 a{
 }
+.cell:hover{
+	background:#90c002;
+	font-size:25px;
+}
 .floorcell{
+	padding:3px auto;
+	height:40px;
 	background:olive;
 	border:1px solid DarkGreen;
 }
 .cell{
+	margin:3px 0 0 0;
 	font-size: 20px;
-	background: yellowgreen;
+	background: #9ACD32;
 	color: black;
 	padding:3px;
+	text-align:center;
 	font-weight:600;
 }
 
