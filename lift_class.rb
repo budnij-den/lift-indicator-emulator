@@ -3,6 +3,7 @@ class Lift
 		FLOORS=(1..25) 
 
 		attr_reader :current_floor 
+		# attr_accessor :current_floor 
 		attr_accessor :destination_floor, :weight 
 
 	def initialize 

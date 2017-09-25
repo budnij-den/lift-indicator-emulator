@@ -4,6 +4,7 @@ require 'shotgun'
 require_relative 'lift_class.rb'
 
 l=Lift.new 
+#l.current_floor=20
 
 get '/' do
 	@current=l.current_floor

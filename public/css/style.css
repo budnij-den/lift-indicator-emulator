@@ -64,6 +64,6 @@ a{
 	color:firebrick;
 	background:darksalmon;
 }
-#f000, #f101, #f202, #f303, #f404, #f505, #f606, #f707, #f808, #f909, #f1010, #f1111, #f1212, #f1313, #f1414, #f1515, #f1616, #f1717, #f1818, #f1919, #f2020, #f2121, #f2222, #f2323, #f2424, #f2525{
+#checked{
 	background:orange;
 }
