@@ -50,16 +50,18 @@ class Lift
 	def move_up destination_floor 
 		while @destination_floor>@current_floor 
 			@current_floor+=1 
-			p "lift is in #{@current_floor} floor" 
+			#p "lift is in #{@current_floor} floor" 
 			sleep 1 
+			redirect to "/"
 		end 
 	end 
 
 	def move_down destination_floor 
 		while @destination_floor<@current_floor 
 			@current_floor-=1 
-			p "lift is in #{@current_floor} floor" 
+			#p "lift is in #{@current_floor} floor" 
 			sleep 1 
+			redirect to '/'
 		end 
 	end 
 end 
