@@ -6,7 +6,7 @@ require_relative 'lift_class.rb'
 l=Lift.new 
 #l.current_floor=20
 
-get '/index' do
+get '/' do
 	@current=l.current_floor
 	@floor=@current.to_s
 	erb :index
@@ -16,9 +16,10 @@ get '/index' do
 	# l.show_floor
 end
 
-post '/index' do
+post '/' do
 	@destination_floor=params[:destination_floor].to_i
 	l.destination_floor=@destination_floor
 	l.move
-	erb :index
+	redirect to ("/")
+	#erb :index
 end
