@@ -19,25 +19,22 @@ class Lift
 	def check_floor 
 		return puts "enter correct value" unless destination_floor.instance_of? Fixnum 
 		return puts "enter correct range" unless FLOORS.include? destination_floor 
-		return puts "enter dissimilar floor" unless current_floor!=destination_floor 
+		return puts "\renter dissimilar floor\r" unless current_floor!=destination_floor 
 		p self
 	end 
 
-	# def check_weight 
-		# return puts "overload!" if @weight>MAXWEIGHT 
-	# end 
+	def check_weight 
+		return puts "overload!" if @weight>MAXWEIGHT 
+	end 
 	
-	# def weight_changing
-		# if 
-		# else
-	# end
-	# end
+	def weight_changing
+	end
 	
-	# def load_weight
-	# end
+	def load_weight
+	end
 	
-	# def release_weight
-	# end
+	def release_weight
+	end
 
 	def move 
 		if @destination_floor > @current_floor 
@@ -61,7 +58,6 @@ class Lift
 			@current_floor-=1 
 			#p "lift is in #{@current_floor} floor" 
 			sleep 1 
-			#redirect to '/'
 		end 
 	end 
 end 

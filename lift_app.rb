@@ -19,6 +19,7 @@ end
 post '/' do
 	@destination_floor=params[:destination_floor].to_i
 	l.destination_floor=@destination_floor
+	l.check_floor
 	l.move
 	redirect to ("/")
 	#erb :index
